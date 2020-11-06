@@ -234,6 +234,7 @@ class Template:
         :param: p - str, an ftp path
         :param: f_n: str, file name to be downloaded
         '''
+
         tmp_dir = os.getcwd()
         os.chdir(TEMPLATE_FILES_PATH)
 

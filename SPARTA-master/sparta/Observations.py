@@ -72,7 +72,7 @@ class Observations:
                         self.file_list.append(os.path.join(root, file))
                     else:
                         pass
-
+            
             # self.sample_size = len(self.file_list)
 
             for visit_path in self.file_list:
